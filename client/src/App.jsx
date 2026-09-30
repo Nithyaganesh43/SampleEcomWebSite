@@ -56,7 +56,7 @@ export default function App() {
             <Route path="/signup" element={user ? <Navigate to="/" /> : <SignUp />} />
             <Route path="/cart" element={user ? <Cart /> : <Navigate to="/signin" />} />
           </Routes>
-          <footer className="foot">Northline · household goods, chosen slowly.</footer>
+          <footer className="foot">thank you</footer>
         </div>
       </BrowserRouter>
     </ShopContext.Provider>
