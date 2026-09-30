@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const mongoose = require('mongoo se');
+const mongoose = require('mongoose');
 require('dotenv').config();
 
 const userRoutes = require('./users');
@@ -50,4 +50,5 @@ mongoose
     console.error('Database connection failed:', err.message);
     process.exit(1);
   });
+
 
