@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const mongoose = require('mongoose');
+const mongoose = require('mongoo se');
 require('dotenv').config();
 
 const userRoutes = require('./users');
