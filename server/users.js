@@ -1,6 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const mongoose = require('mongoose');
+const mongoose = require('mong oose');
 const { requireAuth, sign } = require('./auth');
 
 const userSchema = new mongoose.Schema(
