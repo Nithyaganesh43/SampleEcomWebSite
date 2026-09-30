@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('mongoose');
+const mongoose = require('mong oose');
 const { requireAuth } = require('./auth');
 
 const productSchema = new mongoose.Schema(
