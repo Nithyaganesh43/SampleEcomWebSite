@@ -8,6 +8,7 @@ function sign(user) {
   );
 }
 
+
 function requireAuth(req, res, next) {
   const header = req.headers.authorization || '';
   const token = header.startsWith('Bearer ') ? header.slice(7) : '';

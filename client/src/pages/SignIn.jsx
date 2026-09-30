@@ -36,8 +36,7 @@ export default function SignIn() {
   return (
     <main className="auth">
       <section className="auth-brand">
-        <p className="eyebrow">Welcome back</p>
-        <h1>Your cart is right where you left it.</h1>
+        <p className="eyebrow">Welcome back</p> 
         <p>Sign in to keep shopping the edit — lamps, wool, runners, and the rest of the house.</p>
       </section>
       <form className="auth-card" onSubmit={onSubmit}>
