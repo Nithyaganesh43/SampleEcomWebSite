@@ -1,6 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const mongoose = require('mong oose');
+const mongoose = require('mongoose');
 const { requireAuth, sign } = require('./auth');
 
 const userSchema = new mongoose.Schema(
@@ -102,3 +102,4 @@ router.delete('/', requireAuth, async (req, res) => {
 });
 
 module.exports = router;
+
