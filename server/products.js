@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('mong oose');
+const mongoose = require('mongoose');
 const { requireAuth } = require('./auth');
 
 const productSchema = new mongoose.Schema(
@@ -273,3 +273,4 @@ router.delete('/:id', requireAuth, async (req, res) => {
 });
 
 module.exports = { router, seedProducts };
+
